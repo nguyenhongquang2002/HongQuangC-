@@ -1,0 +1,62 @@
+﻿<Page
+    x:Class="AppMusic.Pages.ProfilePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppMusic.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel Margin="20">
+        <TextBlock Text="My Profile" Style="{StaticResource FormHeading}"/>
+        <StackPanel Style="{StaticResource FormGroup}">
+            <TextBlock Text="First Name: " Style="{StaticResource FormLabel}"/>
+            <TextBlock Text="Hồng Quang"/>
+        </StackPanel>
+        <StackPanel Style="{StaticResource FormGroup}">
+            <TextBlock Text="Last Name: " Style="{StaticResource FormLabel}"/>
+            <TextBlock Text="Nguyễn"/>
+        </StackPanel>
+        <StackPanel Style="{StaticResource FormGroup}">
+            <TextBlock Text="Email: " Style="{StaticResource FormLabel}"/>
+            <TextBlock Text="nguyenhongquang@gmail.com"/>
+        </StackPanel>
+        <StackPanel Style="{StaticResource FormGroup}">
+            <TextBlock Text="Address: " Style="{StaticResource FormLabel}"/>
+            <TextBlock Text="Ha Noi"/>
+        </StackPanel>
+        <StackPanel Style="{StaticResource FormGroup}">
+            <TextBlock Text="Phone: " Style="{StaticResource FormLabel}"/>
+            <TextBlock Text="0966186860"/>
+        </StackPanel>
+        <StackPanel Style="{StaticResource FormGroup}">
+            <TextBlock Text="Avatar: " Style="{StaticResource FormLabel}"/>
+            <Image Width="200" Source="https://res.cloudinary.com/nguyenhongquang/image/upload/v1635757260/samples/oki_h2z63m.jpg"/>
+        </StackPanel>
+        <StackPanel Style="{StaticResource FormGroup}">
+            <TextBlock Text="Gender: " Style="{StaticResource FormLabel}"/>
+            <TextBlock Text="Male"/>
+        </StackPanel>
+        <StackPanel Style="{StaticResource FormGroup}">
+            <TextBlock Text="Birthday: " Style="{StaticResource FormLabel}"/>
+            <TextBlock Text="2002/05/30"/>
+        </StackPanel>
+        <StackPanel Style="{StaticResource FormGroup}">
+            <TextBlock Text="Entroduction: " Style="{StaticResource FormLabel}"/>
+            <TextBlock Text="Quang Mốc"/>
+        </StackPanel>
+        <StackPanel Style="{StaticResource FormGroup}">
+            <TextBlock Text="Create Time: " Style="{StaticResource FormLabel}"/>
+            <TextBlock Text="2021-11-4"/>
+        </StackPanel>
+        <StackPanel Style="{StaticResource FormGroup}">
+            <TextBlock Text="Status: " Style="{StaticResource FormLabel}"/>
+            <TextBlock Text="Active"/>
+        </StackPanel>
+        <StackPanel Style="{StaticResource FormGroup}">
+            <TextBlock Text="" Style="{StaticResource FormLabel}"/>
+            <Button Content="Edit" Width="100"/>
+        </StackPanel>
+    </StackPanel>
+</Page>
